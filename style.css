@@ -1,0 +1,68 @@
+/*Selector (remember specificity, importants and source order) {
+	Property:Value;
+}*/
+
+
+body {
+	background:url(https://live-cityyear-uk.pantheonsite.io/wp-content/uploads/2020/12/CYUK-OpeningDayAcademy-FullSize-0093-resized-ba-1024x682.jpg)rgba(169,32,32,1);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-blend-mode: multiply;
+
+/*	background-blend-mode: multiply; allows you to color overlay ocapity*/
+/*body {
+   Location of the image 
+  background-image: url(images/background-photo.jpg);
+  
+   Background image is centered vertically and horizontally at all times 
+  background-position: center center;
+  
+   Background image doesn't tile 
+  background-repeat: no-repeat;
+  
+   Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height 
+  background-attachment: fixed;
+  
+   This is what makes the background image rescale based
+     on the container's size 
+  background-size: cover;
+  
+   Set a background color that will be displayed
+     while the background image is loading 
+  background-color: #464646;
+*/
+}
+h1 {
+	text-align: center;
+	align-items: center;
+	justify-content: space-around;
+	font-family: 'Bangers', cursive;
+	text-transform: capitalize;
+	font-style: bold;
+  	font-weight: 400;
+	font-size: 4rem;
+	color: #FFFFFF;
+	margin: 100px;
+	border: 10px;
+	padding: 130px;
+}
+.button1 {
+	text-align: center;
+	align-items: center;
+	justify-content: space-around;
+	transition: all 1s; 
+	cursor: pointer;
+	font-size: 50px;
+	color: #FFFFFF;
+	margin: 5px;
+	border: 5px;
+	padding: 15px;
+}
+
+.button1:hover {
+	transform: scale(1.1);
+
+}
